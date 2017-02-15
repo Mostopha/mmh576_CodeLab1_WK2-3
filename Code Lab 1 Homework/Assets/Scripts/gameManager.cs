@@ -15,7 +15,9 @@ public class gameManager : MonoBehaviour {
     public GameObject scoreText;
 
     private Text txt;
-    private int score;
+
+    private static int score;
+    
 
     public static gameManager instance;
 
